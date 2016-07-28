@@ -6,11 +6,13 @@ Free Bootstrap Themes : http://www.365bootstrap.com
 /* ==== Google font ==== */
 @import url(http://fonts.googleapis.com/css?family=Roboto:400,300,700,900);
 @import url('http://fonts.googleapis.com/css?family=Ek+Mukta:400,600,700');
-
+@import url(http://fonts.googleapis.com/earlyaccess/hanna.css);	
+@import url(http://fonts.googleapis.com/earlyaccess/jejuhallasan.css);
+@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
 /* ---------------------------------------------------------------------------- */
 /* ------------------------------------Html-Body------------------------------- */
 /* ---------------------------------------------------------------------------- */
-body {font-family: 'Ek Mukta', sans-serif;color: #666;background-color: #fff;font-size: 16px;line-height: 1.6em;font-weight: 400;}
+body {font-family: 'Hanna', serif;;color: #666;background-color: #fff;font-size: 16px;line-height: 1.6em;font-weight: 400;}
 html, body {width:100%; padding:0; margin:0;}
 
 /* ---------------------------------------------------------------------------- */
@@ -27,7 +29,7 @@ h4 {font-size: 28px;}
 h5 {font-size: 24px;}
 h6 {font-size: 20px;}
 
-h1,h2,h3,h4,h5,h6 {font-family: 'Roboto', sans-serif;font-weight: 600;color: #111;}
+h1,h2,h3,h4,h5,h6 {font-family: 'Hanna', serif;font-weight: 600;color: #111;}
 
 p {margin: 0 0 20px;}
 
@@ -66,7 +68,7 @@ body.sub-page .logo {margin: 110px 0 80px;background: url(../images/bg.jpg) fixe
 /* ----------------------------------Header////-------------------------------- */
 /* ---------------------------------------------------------------------------- */
 .navbar-default {border-color: transparent;background-color: #f1f1f1;}
-.navbar-default .navbar-brand {font-family: Helvetica,Arial,cursive;color: #DE5781;display: none;}
+.navbar-default .navbar-brand {font-family: 'Hanna',Arial,cursive;color: #DE5781;display: none;}
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus,
 .navbar-default .navbar-brand:active,
@@ -78,7 +80,7 @@ body.sub-page .logo {margin: 110px 0 80px;background: url(../images/bg.jpg) fixe
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {background-color: #DE5781;}
 
-.navbar-default .nav li a {text-transform: uppercase;font-family: Helvetica,Arial,sans-serif;font-weight: 400;letter-spacing: 1px;color: #333;}
+.navbar-default .nav li a {text-transform: uppercase;font-family: 'Hanna',Arial,sans-serif;font-weight: 400;letter-spacing: 1px;color: #333;}
 .navbar-default .nav li a:hover,
 .navbar-default .nav li a:focus {outline: 0;color: #DE5781;}
 
@@ -228,6 +230,7 @@ body.sub-page .logo {margin: 110px 0 80px;background: url(../images/bg.jpg) fixe
 /* ---------------------------------------------------------------------------- */
 .box-content.box-7 {}
 .box-content.box-7 .box-item{} 
+.box-content.box-7 .container{width:500px; height:300px; text-align:left;}
 
 
 /* ---------------------------------------------------------------------------- */
