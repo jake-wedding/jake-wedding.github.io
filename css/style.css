@@ -4,11 +4,7 @@ Free Bootstrap Themes : http://www.365bootstrap.com
 */
 
 /* ==== Google font ==== */
-@import url(http://fonts.googleapis.com/css?family=Roboto:400,300,700,900);
-@import url('http://fonts.googleapis.com/css?family=Ek+Mukta:400,600,700');
 @import url(http://fonts.googleapis.com/earlyaccess/hanna.css);	
-@import url(http://fonts.googleapis.com/earlyaccess/jejuhallasan.css);
-@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
 /* ---------------------------------------------------------------------------- */
 /* ------------------------------------Html-Body------------------------------- */
 /* ---------------------------------------------------------------------------- */
@@ -151,7 +147,7 @@ body.sub-page .logo {margin: 110px 0 80px;background: url(../images/bg.jpg) fixe
 .box-content.box-1 {}
 .box-content.box-1 .box-item{margin-bottom: 120px;float: left;text-align: center;font-family: 'Open Sans', sans-serif;
 	border-radius: 4px;
-	background-color: rgba(255, 255, 255, 0.8);
+	background-color: rgba(255, 255, 255);
 	padding: 100px 0 20px 0;
 	margin-top: -180px;
 	position: relative;
@@ -230,7 +226,7 @@ body.sub-page .logo {margin: 110px 0 80px;background: url(../images/bg.jpg) fixe
 /* ---------------------------------------------------------------------------- */
 .box-content.box-7 {}
 .box-content.box-7 .box-item{} 
-.box-content.box-7 .container{width:500px; height:300px; text-align:left;}
+.box-content.box-7 .container{width:400px; height:300px; text-align:left;}
 
 
 /* ---------------------------------------------------------------------------- */
