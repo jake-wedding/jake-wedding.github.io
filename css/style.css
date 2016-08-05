@@ -327,11 +327,11 @@ body.sub-page .logo {margin: 110px 0 80px;background: url(../images/bg.jpg) fixe
  }
 @media only screen and (max-width: 960px) {
  .box-content.box-6 blockquote {padding: 30px 60px;font-size: 22px; }
- .box-content.box-6 blockquote:before, .box-content.box-4 blockquote:after {width: 30px;height: 30px;font-size: 70px; } 
+ .box-content.box-6 blockquote:before, .box-content.box-6 blockquote:after {width: 30px;height: 30px;font-size: 70px; } 
  }
 @media only screen and (max-width: 690px) {
  .box-content.box-6 blockquote {padding: 10px 30px;font-size: 20px; }
- .box-content.box-6 blockquote:before, .box-content.box-4 blockquote:after {font-size: 35px; } 
+ .box-content.box-6 blockquote:before, .box-content.box-6 blockquote:after {font-size: 35px; } 
  }
 
 /* ---------------------------------------------------------------------------- */
