@@ -437,6 +437,7 @@ body.sub-page .logo {margin: 110px 0 80px;background: url(../images/bg.jpg) fixe
 /* -------------------------------------Box 3---------------------------------- */
 /* ---------------------------------------------------------------------------- */
 .box-content.box-3 {}
+.box-content.box-3 .intro{font-size: 20px;}
 
 .timeline {position: relative;padding: 0;list-style: none;}
 .timeline:before {content: "";position: absolute;top: 0;bottom: 0;left: 40px;width: 2px;margin-left: -1.5px;background-color: #555;}
@@ -551,12 +552,13 @@ body.sub-page .logo {margin: 110px 0 80px;background: url(../images/bg.jpg) fixe
 .box-content.box-4 h2{color:#fff;}
 .box-content.box-4 h3{color:#fff;}
 .box-content.box-4 .box-item {font-family: 'Hanna'; margin-top: 30px;border-bottom: 1px solid #fff;border-top: 1px solid #fff;padding: 30px 0px 10px 0px;color: #fff;}
-.box-content.box-4 .intro{font-size: 23px;}
+.box-content.box-4 .intro{font-size: 20px;}
 
 /* ---------------------------------------------------------------------------- */
 /* -------------------------------------Box 5---------------------------------- */
 /* ---------------------------------------------------------------------------- */
 .box-content.box-5 {}
+.box-content.box-5 .intro{font-size: 20px;}
 .box-content.box-5 .box-item{margin-bottom: 20px; display: inline-block;}
 .box-content.box-5 .da-thumbs {list-style: none;position: relative;margin: 10px auto;padding: 0;}
 .box-content.box-5 .da-thumbs li {display:inline-block;margin: 5px;background: #fffeff;padding: 8px;position: relative;box-shadow: 0 1px 3px rgba(0,0,0,0.1);}
