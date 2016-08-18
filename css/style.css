@@ -140,6 +140,246 @@ body.sub-page .logo {margin: 110px 0 80px;background: url(../images/bg.jpg) fixe
 /* ---------------------------------------------------------------------------- */
 #page-content{}
 
+/* ----------------------------------------------*/
+/* 06.5 Main Slider Title					     */
+/* ----------------------------------------------*/
+
+/* 06.5.1 Outter Wrapper */
+/* ----------------------------------------------*/
+.slide-title-outter-wrapper{
+	position:absolute; 
+	width:100%; 
+	height:inherit; 
+	left:0; 
+	z-index:3;
+	overflow:hidden;
+}
+
+/* 06.5.2 Inner Wrapper */
+/* ----------------------------------------------*/
+.slide-title-inner-wrapper{
+	width:1170px; 
+	height:inherit; 
+	margin:0 auto; 
+	display: table;
+}
+
+/* 06.5.3 Title Wrapper */
+/* ----------------------------------------------*/
+.slide-title{ 
+	display: table-cell;
+	text-align:center;	
+    color:#000;
+	width: 50%;
+    margin: 0 auto; 
+}
+
+.slide-title h1, .slide-title h2, .slide-title h3,
+.slide-title h4, .slide-title h5, .slide-title h6{
+	color:#000;
+}
+
+
+/* 06.5.4 Title Alignment */
+/* ----------------------------------------------*/
+.slide-title.align-middle{
+	vertical-align: middle;
+}
+.slide-title.align-top{
+	vertical-align: top;
+	/*padding-top:100px;*/
+}
+.slide-title.align-bottom{
+	vertical-align: bottom;
+	/*padding-bottom:0px;*/
+}
+
+/* 06.5.6 Save The Date Title */
+/* ----------------------------------------------*/
+#save-the-date{
+	font-family: 'Pacifico', cursive; 
+	-ms-transform: rotate(-10deg); /* IE 9 */
+    -webkit-transform: rotate(-10deg); /* Chrome, Safari, Opera */
+    transform: rotate(-10deg);
+	padding-top:0px;
+	padding-right:50px;
+	margin-bottom:20px;
+
+}
+
+#save{
+	font-size:55px; 
+	line-height:75px
+}
+
+#the-date{
+	font-size:45px;
+}
+
+#date{
+	font-size:35px; 
+	line-height:70px;
+}
+
+.pink-dot{
+	color: #f0394d; 
+}
+
+/* 07.2.11 Banner Text				 			 */
+/* ----------------------------------------------*/
+.banner-text{
+	display:inline-block;
+	font-family: 'Oswald', sans-serif; 
+	margin:auto;
+	margin-top:10px;
+	margin-bottom:10px; 	
+	text-align:center
+}
+
+.banner-text.small{
+	padding:2px 15px;  
+}
+
+.banner-text.medium{
+	padding:2px 25px;  
+}
+
+.banner-text.large{
+	padding:2px 35px;  
+}
+
+.banner-text.full{
+	width:100%;
+}
+
+.banner-text.light{
+	color:#000;
+	border-top:medium double #fff; 
+	border-bottom:medium double #fff;
+}
+
+.banner-text.light *{
+	color:#000;
+}
+
+.banner-text.dark{
+	color:#6a6a6a;
+	border-top:medium double #6a6a6a; 
+	border-bottom:medium double #6a6a6a; 	
+}
+
+.banner-text.dark *{
+	color:#333333;
+}
+
+.banner-text.withlove{
+	position:relative;
+	display:inline-block;
+	font-family: 'Oswald', sans-serif;  
+	margin:auto;
+	margin-top:30px;
+	margin-bottom:30px;
+	text-align:center
+}
+
+.banner-text.withlove:before{
+	display:block;
+	font-family: "fontello";
+	position:absolute;
+	font-size:22px;
+	color:#FFF;
+	content:"\e806";
+	top:-17px;
+	left:0;
+	right:0;
+	margin-left:19px;
+}
+
+.banner-text.withlove.dark:before{
+	color:#e1dddd;
+}
+
+.banner-text.withlove:after{
+	display:block;
+	font-family: "fontello";
+	position:absolute;
+	font-size:22px;
+	color:#f0394d;
+	content:"\e806";
+	top:-17px;
+	left:0;
+	right:0	;
+	margin-right:19px;
+}
+
+/* 07.2.9 HEART DIVIDER							 */
+/* ----------------------------------------------*/
+
+.heart-divider{
+	height:100%; 
+	width:100%;
+	margin:0 auto; 
+	margin-top:20px;
+	margin-bottom:20px;
+	text-align:center;
+}
+
+.white-line{
+	width:30px; 
+	height:8px;
+	display:inline-block;
+	border-top:solid 1px #000;
+}
+
+.grey-line{
+	width:30px; 
+	height:8px;
+	display:inline-block;
+	border-top:solid 2px #e1dddd;
+}
+
+/*.left-line{
+	color:#FFF; 
+	letter-spacing:-2px; 
+	float:left; 
+	margin-right:10px
+}
+
+.right-line{
+	color:#FFF; 
+	letter-spacing:-2px; 
+	float:left;
+	margin-left:10px
+}
+
+.two-heart{
+	float:left;
+}*/
+
+.pink-heart{
+	color:#f0394d; 
+	font-size:18px; 
+	position:relative; 
+	z-index:3
+}
+
+.white-heart{
+	color:#FFF; 
+	font-size:18px; 
+	margin-left:-15px; 
+	position:relative;
+	z-index:2
+}
+
+.grey-heart{
+	color: #e1dddd;
+	font-size:18px; 
+	margin-left:-15px; 
+	position:relative;
+	z-index:2
+}
+
+
 /* ---HomePage--- */
 .box-content {padding: 100px 0;}
 .box-content .heading{margin-bottom: 50px; text-align: center;}
@@ -147,10 +387,19 @@ body.sub-page .logo {margin: 110px 0 80px;background: url(../images/bg.jpg) fixe
 .box-content.box-style-2{background-attachment:fixed; background-image: url(../images/bg-2.jpg); background-color: #222;color:#fff;}
 
 /* ---------------------------------------------------------------------------- */
+/* -------------------------------------Box 0---------------------------------- */
+/* ---------------------------------------------------------------------------- */
+.box-content.box-0 {border-bottom: 1px solid #DDD;border-top: 1px solid #DDD;}
+.box-content.box-0 .box-item{background-color: #F9F9F9;margin-bottom: 0px;border: 1px solid #eee;} 
+.box-content.box-0 .box-item .content{padding: 10px 30px 30px;} 
+.box-content.box-0 .box-item .content h3{font-weight: 500;color: #DE5781;font-size: 24px;margin-bottom: 10px;} 
+.box-content.box-0 .box-item .content span{color: #bbb;font-size: 15px;}
+
+/* ---------------------------------------------------------------------------- */
 /* -------------------------------------Box 1---------------------------------- */
 /* ---------------------------------------------------------------------------- */
 .box-content.box-1 {}
-.box-content.box-1 .box-item-1{margin-bottom: 120px;float: left;text-align: center;font-family: 'Open Sans', sans-serif;
+.box-content.box-1 .box-item-1{margin-bottom: 120px;float: center;text-align: center;font-family: 'Open Sans', sans-serif;
 	border-radius: 4px;
 	background-color: rgba(255, 255, 255);
 	padding: 100px 0 20px 0;
@@ -161,7 +410,7 @@ body.sub-page .logo {margin: 110px 0 80px;background: url(../images/bg.jpg) fixe
 	-o-box-shadow: 0px 56px 36px -60px #121D12;}
 .box-content.box-1 .box-item-1 h3{color: #363638;font-size:1.5em;text-transform:uppercase;}
 .box-content.box-1 .box-item-1 p{font-family: Arial, Helvetica, sans-serif;font-size: 15px;color:#816943;line-height: 25px;margin: 0.5em auto 0.8em auto;width: 90%;}
-.box-content.box-1 .box-item-2{margin-bottom: 0px;float: left;text-align: center;font-family: 'Open Sans', sans-serif;
+.box-content.box-1 .box-item-2{margin-bottom: 0px;float: center;text-align: center;font-family: 'Open Sans', sans-serif;
 	border-radius: 4px;
 	background-color: rgba(255, 255, 255);
 	padding: 100px 0 20px 0;
@@ -178,7 +427,16 @@ body.sub-page .logo {margin: 110px 0 80px;background: url(../images/bg.jpg) fixe
 /* ---------------------------------------------------------------------------- */
 /* -------------------------------------Box 2---------------------------------- */
 /* ---------------------------------------------------------------------------- */
-.box-content.box-2 {}
+.box-content.box-2 {border-bottom: 1px solid #DDD;border-top: 1px solid #DDD;}
+.box-content.box-2 .box-item{background-color: #F9F9F9;margin-bottom: 0px;border: 1px solid #eee;} 
+.box-content.box-2 .box-item .content{padding: 10px 30px 30px;} 
+.box-content.box-2 .box-item .content h3{font-weight: 500;color: #DE5781;font-size: 24px;margin-bottom: 10px;} 
+.box-content.box-2 .box-item .content span{color: #bbb;font-size: 15px;}
+
+/* ---------------------------------------------------------------------------- */
+/* -------------------------------------Box 3---------------------------------- */
+/* ---------------------------------------------------------------------------- */
+.box-content.box-3 {}
 
 .timeline {position: relative;padding: 0;list-style: none;}
 .timeline:before {content: "";position: absolute;top: 0;bottom: 0;left: 40px;width: 2px;margin-left: -1.5px;background-color: #555;}
@@ -287,19 +545,13 @@ body.sub-page .logo {margin: 110px 0 80px;background: url(../images/bg.jpg) fixe
 }
 
 /* ---------------------------------------------------------------------------- */
-/* -------------------------------------Box 3---------------------------------- */
-/* ---------------------------------------------------------------------------- */
-.box-content.box-3 {}
-.box-content.box-3 h2{color:#000;}
-.box-content.box-3 h4{color:#777777; line-height:150%}
-
-/* ---------------------------------------------------------------------------- */
 /* -------------------------------------Box 4---------------------------------- */
 /* ---------------------------------------------------------------------------- */
 .box-content.box-4 {}
 .box-content.box-4 h2{color:#fff;}
 .box-content.box-4 h3{color:#fff;}
 .box-content.box-4 .box-item {font-family: 'Hanna'; margin-top: 30px;border-bottom: 1px solid #fff;border-top: 1px solid #fff;padding: 30px 0px 10px 0px;color: #fff;}
+.box-content.box-4 .intro{font-size: 23px;}
 
 /* ---------------------------------------------------------------------------- */
 /* -------------------------------------Box 5---------------------------------- */
